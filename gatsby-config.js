@@ -35,12 +35,8 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `localhost`,
-          },
-          {
             name: `Homepage`,
-            url: `localhost`,
+            url: `https://gatsby-starter-csu-club.vercel.app/`,
           },
         ],
       },
@@ -54,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
+        name: `CSU Club`,
         short_name: `minimal-blog`,
         description: `Long description of this club.`,
         start_url: `/`,
